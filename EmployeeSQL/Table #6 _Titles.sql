@@ -1,7 +1,4 @@
 -- Titles
-DROP TABLE title
-
-
 CREATE TABLE "titles" (
     "title_id" varchar(10)   NOT NULL,
     "title" varchar(30)   NOT NULL,

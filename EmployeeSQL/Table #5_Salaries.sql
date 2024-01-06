@@ -1,7 +1,4 @@
 -- Salaries
-DROP TABLE salaries
-
-
 CREATE TABLE "salaries" (
     "emp_no" int   NOT NULL,
     "salaries" int   NOT NULL,

@@ -1,10 +1,10 @@
 -- Deparment Employees List
 
 CREATE TABLE "dept_emp" (
-    "dept_no" varchar(6)   NOT NULL,
-    "emp_no" int   NOT NULL,
+    "dept_no" varchar(6) NOT NULL,
+    "emp_no" int NOT NULL,
      CONSTRAINT "pk_dept_emp" PRIMARY KEY (
-        "dept_no","emp_no")
+     "dept_no","emp_no")
 );
 
 	

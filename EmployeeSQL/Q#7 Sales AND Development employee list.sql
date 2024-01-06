@@ -1,7 +1,6 @@
 --List each employee in the Sales and Development departments, including their 
 -- employee number,Last name, first name, and department name.
 
-
 SELECT em.emp_no, em.last_name, em.first_name, dp.dept_name
 FROM employees AS em
 

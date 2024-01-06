@@ -1,7 +1,13 @@
 -- Department Managers Record
 
-CREATE TABLE dept_manager(
-	emp_no int FK >- salaries.emp_no
-	dept_no varchar(4) FK >-department.dept_no
+CREATE TABLE "dept_manager" (
+    "dept_no" varchar(6) NOT NULL,
+	"emp_no" int NOT NULL,
+       
+    CONSTRAINT "pk_dept_manager" PRIMARY KEY (
+        "dept_no","emp_no" 
+     )
+);
+
 
 SELECT * FROM dept_manager

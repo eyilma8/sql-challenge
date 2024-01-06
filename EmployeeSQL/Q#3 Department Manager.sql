@@ -6,6 +6,6 @@ FROM employees AS em
 JOIN dept_manager AS dm
 ON dm.emp_no = em.emp_no
 
-JOIN departments AS dp
+JOIN department AS dp
 ON dm.dept_no = dp.dept_no
 -----

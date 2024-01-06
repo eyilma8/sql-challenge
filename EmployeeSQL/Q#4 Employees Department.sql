@@ -6,5 +6,5 @@ FROM employees AS em
 JOIN dept_emp AS de
 ON em.emp_no = de.emp_no
 
-JOIN departments AS dp
+JOIN department AS dp
 ON dp.dept_no = de.dept_no

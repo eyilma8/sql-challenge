@@ -2,6 +2,6 @@
 
 SELECT employees.emp_no,employees.last_name,employees.first_name, employees.sex,salaries.salaries
 FROM employees 
-JOIN salaries 
+LEFT JOIN salaries 
 ON salaries.emp_no = employees.emp_no;
 -------

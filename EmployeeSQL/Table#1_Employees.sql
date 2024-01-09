@@ -9,9 +9,8 @@ CREATE TABLE "employees" (
     "last_name" varchar(30)   NOT NULL,
     "sex" varchar(1)   NOT NULL,
     "hire_date" date   NOT NULL,
-    CONSTRAINT "pk_employees" PRIMARY KEY (
-        "emp_no"
-     )
+    CONSTRAINT "pk_employees" PRIMARY KEY ("emp_no"),
+	FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
 
 
